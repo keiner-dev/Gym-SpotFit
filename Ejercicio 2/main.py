@@ -1,13 +1,13 @@
-print("Bienvenido a SportFit")
-print("Te ofrecemos clases segun tu edad")
+print("Welcome to SportFit")
+print("We offer classes according to your age")
 
-persona = int(input("ingrese su edad: "))
+person = int(input("Enter your age: "))
 
-if persona <= 13:
-    print("no puede ingresar")
-elif persona <= 17:
-    print("Perteneces a la clase juvenil")
-elif persona <=59:
-    print("Perteneces a la clase general")
+if person <= 13:
+    print("You cannot enter")
+elif person <= 17:
+    print("You belong to the youth class")
+elif person <=59:
+    print("You belong to the general class")
 else:
-    print("Perteneces a la clase senior")
+    print("You belong to the senior class")
